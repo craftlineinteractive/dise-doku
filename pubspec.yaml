@@ -1,0 +1,53 @@
+name: disedoku
+description: "DiceDoku - a casual dice puzzle game."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.5.0
+  go_router: ^18.1.4
+  flutter_animate: ^4.5.2
+  lottie: ^3.7.0
+  flutter_svg: ^2.5.0
+  equatable: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/sfx/
+    - assets/audio/music/
+    - assets/audio/jingles/
+    - assets/icons/
+    - assets/lottie/
+    - assets/credits/
+
+  fonts:
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/fredoka_regular.ttf
+          weight: 400
+        - asset: assets/fonts/fredoka_medium.ttf
+          weight: 500
+        - asset: assets/fonts/fredoka_semibold.ttf
+          weight: 600
+        - asset: assets/fonts/fredoka_bold.ttf
+          weight: 700
+    - family: LilitaOne
+      fonts:
+        - asset: assets/fonts/lilitaone_regular.ttf
+          weight: 400
